@@ -1,0 +1,486 @@
+.header{
+    z-index: 3;
+    position: fixed;
+    background-color: #ffeb3b;
+    color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+}
+.header h3{
+    margin-left: 20px;
+}
+#text{
+    color: aqua;
+}
+.cv{
+    font-family: cursive;
+
+    z-index: 1;
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    border-right: 1px rgb(233, 213, 213) solid;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #383838;
+}
+.imgpsn{
+    position: relative;
+    text-align: center;
+    padding-top: 72px;
+    width: 100%;
+
+    border-bottom: 1px rgb(52 36 36) solid;
+    height: 45vh;
+
+}
+.imgpsn img{
+
+    border-radius: 224px;
+    width: 100%;
+}
+.menu ul{
+    margin-left: -15px;
+    list-style-type: none;
+}
+.menu li{
+    margin: 7%;
+    font-size: 20px;
+}
+.menu .sp{
+    color: aqua;
+    margin-left: 10%;
+}
+.content{
+    margin-top: 71px;
+    width: 69%;
+    float:right;
+
+}
+.note{
+    float: left ;
+    border: 1px solid rgb(216 181 181);;
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 2vh;
+    height: 185px;
+    overflow: hidden;
+    animation-name: tele1;
+    animation-duration: 0.9s;
+    background-color: #434347;
+
+}
+.manct{
+    position: relative;
+    margin-left: 15px;
+    height: 185px;
+}
+.manct a{
+    margin-left: 15px;
+    text-decoration: none;
+}
+.manct button:hover{
+    cursor: pointer;
+}
+.manct h2 {
+    margin-top: 10px;
+    color: #ffff12;
+}
+.delete{
+    position: absolute;
+    color: rgb(218, 3, 3);
+    right: 44px;
+    bottom: 23px;
+}
+
+.add{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  #4fff28;
+    font-size: 35px;
+    border-radius: 100px;
+    padding: 4px 13px 9px 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.timeago{
+    color: white;
+}
+
+.changevar:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.plus{
+    position: absolute;
+    right: 11%;
+    top: 10px;
+    background-color: #ffffff;
+    font-size: 19px;
+    border-radius: 28px;
+    padding: 5px 11px 5px 10px;
+}
+.note input{
+    position: absolute;
+    color: red;
+    /* margin-bottom: 13px; */
+    font-size: 17px;
+    top: 5px;
+}
+.note textarea{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+}
+
+.pos {
+    bottom: 25px;
+    position: fixed;
+
+    right: 23%;
+
+}
+.cancel1{
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    font-size: 22px;
+    display: none;
+}
+.danhdauedit{
+    box-shadow: 0 0 10px rgb(223 175 175);
+    background-color: #dbdbdd;
+    border: 9px solid rgb(255 255 255);
+
+}
+.oke{
+    position: absolute;
+    /* bottom: 0; */
+    /* top: 0; */
+    right: 38px;
+    bottom: 38px;
+    font-size: 22px;
+    display: none;
+}
+.edit{
+    position: absolute;
+    right: 45px;
+    bottom: 76px;
+}
+.cha{
+    position: absolute;
+    right: 45px;
+    top: 24px;
+}
+.on{
+    display: block;
+}
+.off{
+    display:none;
+}
+
+.for{
+    display: none;
+    text-align: center;
+    z-index: 1000;
+    position: fixed;
+    height: 94vh;
+    width: 100%;
+    right: 0;
+
+    top:41px;
+    background-color: rgba(0,0,0,0.5);
+    transition: opacity .15s linear;
+}
+.chile{
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: white;
+    border-radius: 9px;
+    animation-duration: 0.5s;
+    animation-name: godown ;
+}
+.modal-body input{
+    font-size: 20px;
+    width: 83%;
+    /* margin: 0 1%; */
+    margin: auto;
+}
+.modal-header{
+    padding: 2px;
+    border-bottom: 1px solid #d8d7d7;
+    margin: 20px 0;
+}
+.modal-body{
+    overflow: hidden;
+    margin: 20px 10%;
+}
+.modal-footer{
+    background-color: #e5dcdc;
+    margin: 20px 0;
+    border-radius: 9px;
+}
+.modal-body textarea{
+    font-size: 15px;
+    width: 80%;
+
+    margin: 0 5%;
+    height: 130px;
+}
+.modal-footer input{
+    margin: 20px 3%;
+}
+.modal-header{
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+}
+.modal-body p{
+    font-family: cursive;
+    color: #1dda4a;
+    float: left;
+    margin-left: 9%;
+    font-weight: 900;
+    margin-top: 2px;
+}
+.modal-footer input:hover{
+    cursor: pointer;
+}
+.butclose{
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    /* width: 10px; */
+    font-size: 14px;
+}
+.butclose:hover{
+    cursor: pointer;
+}
+.apear{
+    display: block;
+}
+.add:hover{
+    cursor: pointer;
+}
+
+.qhuy{
+    border-radius: 14px;
+    background-color: blanchedalmond;
+    margin-top: 35px;
+}
+.imgchile{
+    position: relative;
+    margin: auto;
+
+    background-position: top;
+    background-size: cover;
+    height: 26vh;
+    width: 47%;
+    border-radius: 100px;
+}
+
+.hinhanh{
+    position: relative;
+    width: 49%;
+    margin: auto;
+}
+
+#myFile{
+    opacity: 0;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+.error{
+    border: solid;
+    border-color: red;
+}
+.edited{
+    font-style: italic;
+    color: #50a7ff;
+    margin-bottom: -10px;
+}
+@keyframes godown {
+    from{
+        margin-top: 0;
+    }
+    to{
+        margin-top: 8%;
+    }
+}
+
+@keyframes tele1 {
+    from{
+
+        opacity: 0;
+
+
+    }
+    to{
+
+        opacity: 1;
+
+
+    }
+}
+@keyframes tele {
+    from{
+
+        opacity: 0;
+    }
+    to{
+
+        opacity: 1;
+    }
+}
+.get1{
+    word-break: break-word;
+    margin-right: 33%;
+    color: #e3ff5d;
+    font-family: cursive;
+}
+.around{
+    animation-name: arounds;
+    animation-duration: 2s;
+}
+@keyframes arounds {
+    from{
+        transform: rotate3d(1, 1, 1, 0deg);
+    }
+    to{
+        transform: rotate3d(1, 1, 1, 360deg);
+
+
+    }
+}
+@media (max-width:1200px){
+    .note{
+        float: none;
+        width: 90%;
+    }
+}
+.sch{
+    width: 50%;
+}
+@media (max-width:1200px) {
+
+
+    .add{
+        font-size: 28px;
+        right: 7px;
+    }
+    .note textarea{
+        width: 65%;
+    }
+    .cv {
+        z-index: 1;
+        position: relative;
+        /* position: fixed; */
+        width: 100%;
+        /* height: 71vh; */
+        /* border-right: 1px rgb(233, 213, 213) solid; */
+        top: 0;
+        left: 0;
+        height: auto;
+        padding-bottom: 16px;
+        border-bottom: 1px #c8bbea solid;
+    }
+    .hinhanh{
+        width: 27%;
+        margin: auto;
+    }
+    .content {
+        /* margin-top: 71px; */
+        width: 95%;
+        margin-top: 20px;
+        float: right;
+        margin-top: auto;
+    }
+    .menu li {
+        margin: 4%;
+        font-size: 20px;
+    }
+    .qhuy {
+
+        margin-top: 35px;
+    }
+
+    .menu{
+        width: 70%;
+        margin: auto;
+    }
+    .imgchile{
+
+    }
+    .pos{
+        bottom: auto;
+        margin-top: 20px;
+        position: relative;
+        right: auto;
+    }
+    .imgpsn{
+        border-bottom: none;
+        height: auto;
+    }
+    .pagination{
+        width: 50%;
+        margin-left: 4%;
+
+    }
+}
+@media (max-width:970px) {
+    .add{
+        bottom: 64px;
+    }
+}
+@media (max-width:1000px) {
+
+
+}
+@media (max-width:700px) {
+    .hinhanh{
+        width: 38%;
+    }
+
+}
+@media (max-width:360px) {
+    .hinhanh{
+        width: 60%;
+    }
+
+}
+.decor{
+    border-radius: 8px;
+    background-color: beige;
+}
+.hinhanh:hover {
+
+    opacity: 0.7;
+}
+html{
+    background-color: #424547;
+}
+.snote{
+    color: aqua;
+}
+.addimg{
+    margin-left: 8%;
+    width: 29%;
+}
+.white{
+    color: #85796e;
+}
+
